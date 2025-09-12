@@ -7,7 +7,7 @@ With this approach in mind, I implemented and compared **two widely used seq2seq
 - **Seq2Seq LSTMs** (a classical recurrent approach)  
 - **Transformers** (state of the art attention-based models)  
 
-Both were tested with three tokenization approaches: **character-level**, **word-level**, and **subword-level**.  
+Both were tested with three tokenization approaches: **character-level**, **word-level** and **subword-level**.  
 
 Combining these two models with the mentioned tokenization approaches created a six-part comparative study:  
 
@@ -83,7 +83,7 @@ Lower is better for both.
 | Word | Transformer | 46.59% | 58.10% |  
 
 > These are the **best test-set results** obtained among all model checkpoints (for each tokenization + model type).  
-> In each tokenization folder/notebook, you can find additional models saved by best validation loss and best validation CER, covering evaluation results for training, validation, and test sets.  
+> In each tokenization folder/notebook, you can find additional models saved by best validation loss and best validation CER, covering evaluation results for training, validation and test sets.  
 
 ✅ **Best performing models:**  
 - **Char-level Transformer** (lowest CER/WER overall)  
